@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6cc4f7e0-df52-45e8-ae49-8448da7b0222" name="更改" comment="">
-      <change beforePath="$PROJECT_DIR$/README 2.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-    </list>
+    <list default="true" id="6cc4f7e0-df52-45e8-ae49-8448da7b0222" name="更改" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -16,9 +13,9 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 0
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 0
+}</component>
   <component name="ProjectId" id="2bc9aEUWMOSgeVM4RHyYPl6SI11" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -31,6 +28,7 @@
     "git-widget-placeholder": "master",
     "last_opened_file_path": "/Users/jason/Documents/Interface_AutoTest",
     "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -50,6 +48,7 @@
       <option name="presentableId" value="Default" />
       <updated>1706503572156</updated>
       <workItem from="1706503576862" duration="109000" />
+      <workItem from="1706504477462" duration="59000" />
     </task>
     <servers />
   </component>
