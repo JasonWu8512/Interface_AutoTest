@@ -1,0 +1,136 @@
+# -*- coding: utf-8 -*-
+
+env: "dev"
+url: https://dev.jiliguala.com
+gateway: http://gateway-dev.jlgltech.com
+reading_url: https://devggr.jiliguala.com
+sso_url: https://dev-sso.jiliguala.com
+qiniucdn: https://qiniucdn.jiliguala.com
+saturn_gateway: http://ggr-gateway-dev.jlgltech.com
+admin_url: https://gaea.jiliguala.com/dev
+leadsbind_url: http://10.100.113.73:8192
+
+jlgl_mongo: "jlgl_dev"
+ggr_mongo: "ggr_dev"
+
+wx_app: "wx18f8075163853984"
+promoter_app: "wx6c71f742d227450e"
+pingpp_app: "wxf78b28c6562d3c56"
+eshop_app: "wxd388f6f520772446"
+
+refund_token: "Basic MTNjNDlkNmM3YmI1NGQzYWE5NjNiMThkMjBlNGExNjE6MDFkNDVhYTczNGE4NDg4NGE4ODQ0OGIzOWI5ZGJkZTU="
+qiniu_token: "Basic MzdiODJhMmFiMWY4NGE2YmEzNTNhMDk2MDFkYzFlOGM6MTc5ZDkwMmUwODhlNDE3NWFmMmQ1OWRjODJlYTFlMTc="
+
+login_ggheader_v2: "TjA0ocGcAgJe5K5xL5unb19exD6oRiMcE+Tnjs9LKWZqZJ3QbL0bbEvCVo4ZwInOm22DdEbDg1bi3XDBQBXTm6ZH9meziqKRosEGxYlESWWoSHUFEa2vbI4o5hw7NJG9vhQcQTdjO2yzfA5d3mvasw5IrSeXFPCyMTc2/4Omn14Mr3NbJlGM1Wp6CzMxy+HjaM0l0mb+5Ox0LsLJ+MHsWFJk898I1OIRtpIM/kmuCuDDSJCy"
+trial_ggheader_v2: "PMceXEOyoFMXkCxuJH8L2pa4/omUW66Bb+Higb12mnwVpgfa/DpgDxnnFbNbVs2HjNNwmnnTc5cJ41y1ms6LwdZPhFVBw0kSYnzvs+PN9jPaAfEOyGoxnXiRVa7jWW9vpJeiMIiV1PGm5GHdpZAsw/13"
+
+account:
+  mobile: "13818207214"
+  pwd: "123456"
+  guaid: "1479122"
+
+reading_account:
+  user: "13162592038"
+  pwd: "123456"
+
+admin_account:
+  user: "18621149482"
+  pwd: "Qqqqqq"
+
+eshop:
+  user: "18720996803" # 在推广人业务侧用于作为粉丝的测试账号
+  admin:
+    user: "testtesttest@jiliguala.com"
+    pwd: "123456"
+    navy_mobile: "11111111111"
+
+xshare:
+  user: "13951782841"
+  point_user: "18900000725"
+  point_user2: "18900000726"
+  point_user3: "18900000727"
+  tc_user: "19919999999" #测试体验课购买账号
+  unionId: "o0QSN1Rx-klNYo3AbwC5XuDlgJqI" #测试用户微信支付时传入的wechattoken
+
+  sp2xuId:
+    sp2xuId_lianbao: 1110 #英语+思维体验课
+    sp2xuId_math: 1111 #呱呱思维趣味AI互动课K1
+    sp2xuId_english: 1112 #呱呱英语趣味AI互动课K1
+    sp2xuId_Normal: 968 #思维正价课
+    sp2xuId_pay_price: 10000 #思维正价课金额
+
+  admin:
+    user: "Jerry_zhu"
+    pwd: "zwh19951116."
+    navy_mobile: "13951782841"
+  manage:
+    user: "qilijun"
+    "password": "Password1"
+
+promoter:
+  promoter1: "13951782841"  # 用于主要推广人的测试账号
+  promoter2: "17600200526"  # 用于测试未满足推广人注册条件的测试账号
+  promoter3: "19100001230" # 用于测试是否自动注册成推广人
+  promoter4: "15601706236" # 用于锁粉的推广人账号
+  fan1: "15996244603" # 用于主粉丝的测试账号
+  fan2: "18362933382" # 用于自动注册的好友测试账号
+  fan3: "19910000001" # 用于锁粉的新用户
+
+
+saturn:
+  user1: "17777711111"  # 用于进行下沉的锁粉测试账号
+  user2: "17777799999"  # 用于测试已锁粉用户购买正价课的测试账号
+  user3: "15555533333"  # 用于测试已锁粉用户购买正价课后分配规划师的测试账号
+
+elephant_number_url: http://10.9.4.124:8088/
+elephant:
+  user: "AutoUser@jiliguala.com"
+  pwd: "Bdp202006"
+  qiniu: "Basic MzdiODJhMmFiMWY4NGE2YmEzNTNhMDk2MDFkYzFlOGM6MTc5ZDkwMmUwODhlNDE3NWFmMmQ1OWRjODJlYTFlMTc="
+
+crm_number_url: https://dev-crm.jiliguala.com
+xcrm:
+  email_address: "demon_jiao@jiliguala.com"
+  pwd: "l5ijt2FP"
+  user1: grace_wang1@jiliguala.com
+  pwd1: grace2021
+
+
+zero_url: https://zero.jiliguala.com
+zero_demon:
+  user: demon_jiao
+  pwd: niuniuniu168
+#zero_url: http://127.0.0.1:8000
+#zero_demon:
+#  user: admin
+#  pwd: admin
+
+
+sso:
+  email_address: "sso.test@jiliguala.com"
+  pwd: "OIucobw7"
+
+version:
+  ver10.7: "version=100700&platform=5&model=0"
+  ver11.0: "version=110000&platform=5&model=0"
+  ver15.0: "version=110500&&platform=5&model=0"
+  ver16.0: "version=110600&platform=5&model=0"
+
+xshare_group_purchase:
+  inviter1: "18717867773"   #转介绍拼团团长测试账号，没开团资格
+  inviter2: "18717867775"   #转介绍拼团团长测试账号，有开团资格（正价课用户）
+  invitee1: "18717867771"   #转介绍拼团团员测试账号，没参团资格（买了英语）
+  invitee2: "18717867772"   #转介绍拼团团员测试账号，没参团资格（买了英语和思维）
+  gpid1: "jlglpintuan202104_EMC1"  #活动id，奖励为钻石的团
+  gpid2: "jlglpintuan202104_Omo1"  #活动id，奖励为实体的团
+
+sp2xuId_list_value:
+  H5_XX_Sample: [1041]          #转介绍sgu:H5_XX_Sample
+  K1GETC_K1MATC_99: [1110]      #转介绍sgu:K1GETC_K1MATC_99 英语+思维体验课
+  K1MATC_99: [1111]             #转介绍sgu:K1MATC_99 呱呱思维趣味AI互动课K1
+  K1GETC_99: [1042]             #转介绍sgu:K1GETC_99 呱呱英语趣味AI互动课K1
+
+eduplatform_url: http://10.50.130.5:60200
+
+
+

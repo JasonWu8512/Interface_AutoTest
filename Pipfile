@@ -1,0 +1,33 @@
+[[source]]
+name = "pypi"
+url = "https://mirrors.aliyun.com/pypi/simple"
+verify_ssl = true
+
+[dev-packages]
+
+[packages]
+pymysql = "*"
+pymongo = "*"
+allure-pytest = "*"
+redis = "*"
+requests = "*"
+urllib3 = "*"
+pytest = "*"
+pytest-assume = "*"
+pytest-check = "*"
+pytest-testconfig = "*"
+pyyaml = "*"
+sshtunnel = "*"
+retry = "*"
+xlrd = "*"
+pytz = "*"
+lazy-property = "*"
+python-dateutil = "*"
+pika = "*"
+pandas = "*"
+openpyxl = "*"
+fuzzywuzzy = "*"
+PyHive = "*"
+ipython = "*"
+[requires]
+python_version = "3.7"

@@ -1,0 +1,338 @@
+# -*- coding: utf-8 -*-
+
+env: "prod"
+url: https://jiliguala.com
+reading_url: https://ggr.jiliguala.com
+gaga_url: https://api.jiligaga.com
+code_url: http://app-highway.jiligagatech.com
+sso_url: https://sso.jiliguala.com
+hw_eduplatform_url: http://course.jiligagatech.com
+sms_url: http://gateway-rc.jlgltech.com
+mock_url: http://gateway.jlgltech.com
+
+
+
+sso:
+  email: "wenling_xu@jiliguala.com"
+  pw: "xu123456"
+
+  email_address: "sso.test@jiliguala.com"
+  pwd: "OIucobw7"
+
+
+jlgl_mongo: "jlgl_prod"
+ggr_mongo: "ggr_prod"
+gaga_sql: "gaga_prod"
+
+admin_account:
+  user: "lucas@knoala.com"
+  pwd: "123456"
+
+reading_account:
+  user: "13524891681" #带订单号 呱号：51013858 终身卡用户
+  pwd: "pppppp"
+  vip388_user: "13888888881"  #年卡用户
+  vip488_user: "13888888882"  #终身卡用户
+  no_vip_user: "13888888883"  #非VIP用户
+  user2: "13888888884"  #非VIP用户
+  kz_user: "13816435634"
+
+gaga_app:
+  mail: "wenling@jiliguala.com"  #  已注册的邮箱
+  mail01: "112223334@qq.com" #  未注册的邮箱
+  pwd: "ZyiRJx24te/TDrEVNhRLeA=="  #  xu123456
+  pwd01: "c4lZZJrYf9ZR0jf9n7PETg=="  #  xu1234567
+  #phone: "13766666666"  #  已注册的账号，密码是pwd
+  phone: "900000027"  #  已注册的账号，密码是pwd
+  #phone00: "13866666666" #  已注册的账号，密码是pwd
+  pwd00: "e6a350411d47bc453e094ee3613869b1"
+  qq: "11422349@qq.com"
+  #phone01: "17777777777"  #  未注册的手机号
+  phone01: "100000012"  #  未注册的手机号
+  phone02: "100000013"  #已注册的手机号，修改密码专用
+  #phone02: "18888888888"  #已注册的手机号，修改密码专用
+  phone05: "900000107"# 人转账户，未领取免费课，密码是pwd
+  phone06: "900000108"# 人转账户，领取免费课，密码是pwd
+  phone08: "900000001" #人转-新用户（用于领取）
+  spuNo: "CP43392362"  #小课包spu
+  errormail: "@.com"
+  countryCode: "tw"  #台湾地区
+  payChannel: "iap"   #支付渠道iap支付
+  currency: "twd"    #地区台湾
+  sguNo: "CG07150365" #小课包sgu
+  source: "roadmap_purchase"   #从路线图进入购买
+  birth: "1542844800000" #宝贝年龄
+  nick: "自动化宝贝" #宝贝昵称
+  payPrice: 430
+  num: "1"
+  countryCodeTw: "tw"
+  countryCodeTh: "66"
+  countrytw: "886"
+  countrycn: "86"
+  languageCodetw: "tw"
+  bidsaber: "707e99797794427b8fd2b2442d41baaf" #正价课报告，路线图 bid
+  bidsaber01: "dccd3aa5f9844c0bbb8121b679ab0113" #体验营课后报告
+  lessonId: "12ade73d49813a0d8d3aedabf28c0fe6"  #正价课课后报告专用lessonid
+  lessonId01: "0241059f8f414a09b140fdae4a8a64f7" #体验营课后报告专用lessonid
+  cocosEnv: "prod"
+  source01: "roadmap_banner"  #路线图运营位
+  source02: "roadmap_banner_btn" #路线图按钮入口领取
+  source03: "claim_popup"  #路线图正式课弹窗领取
+#  phone: "888800001"  #  已注册的账号，密码是pwd
+#  pwd: "ZyiRJx24te/TDrEVNhRLeA=="  #  xu123456
+
+ggheader_v2: "h7kXNc8fuE8gR3V2CsAfNOi8a2IIIpZcJjA6p6CFdokrU7Wh1LG6abHxzXB3K5zSXts4x8pCiZxayyfw6a8HSLFX3bl/FAyIz/JG89oDyGfnYNh4N+kjCRGft7Iw4XQBCwP69+PwXmyVBq11WjGTwcdvWWMzOP3vkttFUxHlTkozvNw="
+onboarding:
+  pandora: "MTY2NzE5NTQwMjg2MjoyMDIwMDUxNDE1MDgxOWUzOWU2YzExMDNlYzExZTA0NTg4ODY4ZDY2MDM4MWM3MDFiNmE4MjY3ZGM5MWJkNToxNzEzY2YwNzE2MmM2MzE5ZmRmOTNkYzFmYWVmMmEzYg%3D%3D" #登录授权
+
+agent:
+  ios_11.6: "Mozilla/5.0 (iPhone; CPU iPhone OS 13_6_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148 niuwa/11.6.0 (iPhone; iOS 13.6.1; Scale/3.0)"
+  ios_11.12.3: "Mozilla/5.0 (iPhone; CPU iPhone OS 13_6_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148 niuwa/11.12.3 (iPhone; iOS 13.6.1; Scale/3.0)"
+
+User-Agent:
+  ios_11.12.3: "niuwa/11.12.3 (iPhone; iOS 14.0.1; Scale/2.00)"
+  ios_11.17.0: "niuwa/11.17.0 (iPhone; iOS 14.0.1; Scale/2.00)"
+  ios_11.31.0: "niuwa/11.17.0 (iPhone; iOS 14.0.1; Scale/2.00)"
+  ios_11.34.0: "niuwa/11.34.0 (iPhone; iOS 14.0.1; Scale/2.00)"
+CS_user:
+  user: "18664309513"
+  pwd: "123456"
+
+possess4weeks:
+  sp2xuId: "3937"
+  spuNo: "CC_S1GE_W1_4_SPU_new"
+  #88
+  agent: "pingxx"
+  payTotal: 8800
+  channel: "alipay_qr"
+  #年课
+  agent1: "ums"
+  payTotal1: 159900
+  channel1: "wx_wap"
+  sp2xuId1: "4122"
+  payPrice: 159900
+  spuNo1: "BZR_GE_NK_Y1_CG_SPU_02_new"
+
+  #1.0正价课
+  payPrice1: 199900
+  sp2xuId2: "3868"
+  spuNo2: "BZR_GE_KC_S1_S6_CG_2DCspu"
+  payTotal2: 199900
+
+  #2.5正价课
+  agent2: "pingxx"
+  payTotal3: 48800
+  payPrice2: 48800
+  sp2xuId3: "1306"
+  spuNo3: "K4GE_rebuy150"
+
+  #1.5正价课
+  agent3: "ums"
+  payTotal4: 269800
+  channel3: "wx_wap"
+  payPrice3: 269800
+  sp2xuId4: "1322"
+  spuNo4: "L1XX_L6XX_E_WITHOUT_DISCOUNT_rebuy0"
+
+toufangAB:
+  url: "https://spa.jiliguala.com/store/share/index.html#/item?targetPage=item&spuId=K1GEFC_0_SPU_H5_LXTMK&source=test"
+  extra: {"success_url":"https://t1.jiliguala.com/QLKMAw"}
+  url1: "https://spa.jiliguala.com/store/share/index.html#/item?targetPage=item&spuId=K1GETC_99_SPU_H5_LXTMK&source=test"
+  extra1: {"result_url":"https://t1.jiliguala.com/vBZlzr"}
+  url2 : "https://spa.jiliguala.com/store/share/index.html#/item-confirm?targetPage=item&spuId=K1GEFC_0_SPU_H5_LXTMK&source=nostandard_lxtmk_test&spuTag=&ageId=1"
+  extra2 : {"result_url":"https://t1.jiliguala.com/dBWKb0"}
+  url3 : "https://spa.jiliguala.com/store/share/index.html#/item-confirm?targetPage=item&spuId=K1GETC_99_SPU_H5_LXTMK&source=nostandard_lxtmk_test&spuTag=&ageId=1"
+  extra3: {"result_url":"https://t1.jiliguala.com/BPwxAD"}
+  sp2xuIds : [3978]
+  sp2xuIds1 : [3844]
+  sp2xuIds2: "4127"
+  source : "test"
+  source1: "nostandard_lxtmk_test"
+  itemid: "H5_Sample_OutsideH5"
+  #转介绍邀请人9.9购买
+  source2: "AppParentCenterNew"
+  itemid1: "H5_Sample_DiamondActivity"
+  xshareInitiator: "7ad6c6c0c35143ae9ea05545899e352f"
+  sharer: "7ad6c6c0c35143ae9ea05545899e352f"
+  sp2xuIds3: [3142]
+  url4: "https://spa.jiliguala.com/store/share/index.html#/item-confirm?itemid=H5_Sample_DiamondActivity&pid=7ad6c6c0c35143ae9ea05545899e352f&initiator=7ad6c6c0c35143ae9ea05545899e352f&S=AppParentCenterNew&subject=english&pType=85&pPlace=1&pClass=common&pDate=20231227&spuId=99_GETC__WXStore&pSub=ENGLISH&spuTag=&ageId=1"
+  extra4: {"result_url":"https://t1.jiliguala.com/8PXzMK"}
+
+
+
+
+LessonDetail:
+  bid: "d0defca3e8fb453fb3849201be7778c5" #查看课程详情页bid
+
+v3lessondetail:
+  bid: "d0defca3e8fb453fb3849201be7778c5"
+  noncesk: "782b2a73-2bba-4404-94cb-0f567f2499da"  #思考详情页
+  noncebd: "63b51ce6-57db-4561-9d18-4d43f2928c4e"  #表达详情页
+
+Song:
+  bid: "d0defca3e8fb453fb3849201be7778c5" #查看儿歌学堂
+  nonce: "7ce0d8c2-6047-495d-8b3a-f24ee4c17781" #查看儿歌学堂
+
+get_tab:
+  bid: 'd0defca3e8fb453fb3849201be7778c5'
+  channel: "manual"
+  mod: 'userTab'
+  mod1: 'endtab'
+
+SC_album:
+  bid: "d0defca3e8fb453fb3849201be7778c5" #c类资源详情页
+  albumId: 'AlbumCIX001'
+
+SC_buy:
+  lessonId: 'LCIX001'
+  albumId: 'AlbumCIX001'
+
+SC_lesson:
+  bid: 'd0defca3e8fb453fb3849201be7778c5' #c类课程详情也
+  lessonId: "LCDS002"
+  albumId: "AlbumCDS001"
+
+SC_progress:
+  bid: "d0defca3e8fb453fb3849201be7778c5" #SC类课程上报
+
+SC_table:
+  bid: "d0defca3e8fb453fb3849201be7778c5"
+
+SC_tableYK:
+  bid: "d9592ad5f26140d2b49c8d731594ac1a"
+
+gm_learn:
+  bid: 'd0defca3e8fb453fb3849201be7778c5'#呱美2.5学习报告
+  lessonId: 'F1GEF016'
+
+expandTab:
+  bid: "d0defca3e8fb453fb3849201be7778c5" #拓展tab页
+  bid1: "9bfd903593684fd6bd38aff06cc60276"
+  level: "c2d3f2a250d441a197dfb484eb310f0b"
+
+center:
+  bid: "d0defca3e8fb453fb3849201be7778c5"
+  level: "K2GE"
+  api_url : "/api/trade-order/order/myorder/O380811836260024320"
+  mobile: "15259805980"
+  typ : "mobilecode"
+  api_url1 : "/api/eshop/v2/commodity/spu/APP_STTM_GOODS_006_SPU"
+
+progress:
+  bid: 'd0defca3e8fb453fb3849201be7778c5' #完课上报
+
+detail:
+  bid: "d0defca3e8fb453fb3849201be7778c5"
+  lid: "F1GEF002" #3.0课程
+  mobile: "12345678001"#拥有所有课程用户
+  pwd: 123456 #用户密码
+  mobile01: "18500001090"#拥有年课体验课
+  mobile02: "18500001090"#拥有年课正价课
+  bid01: "5da082b59b77447bb6cda983614b53c4" #拥有所有课程bid
+  lid_1: "L1XX001" #1.5课程,L1第1周第1节
+  lid_2: "K1GEF001" #2.5课程，K1第1周周一
+  lid_3: "S1GEF036" #3.0课程，k1第1周周一
+  lid_t: "K1GEE001" #体验课课程，第1节
+  lid_m: "K1MAF001" #思维课程，K1第1周周一
+  lid_g: "f1b8a6b8a92f4d039b63fb7774c3f94c" #国学课程
+  lid_b: "414fbbaab2764ff7ae93c1b194d4fbc1" #百科课程
+  bid02: "96ac31dfca174102a54c8b19d2066ba0"
+  bid03: "a37ea06d7efc41889a8862939d357baf"
+  lib_yt: "4b45ac90fcf1454399abf5cb72b687f5"
+  lib_y: "41cfd88aaed54e8497b08492b32de652"
+
+orderNo:
+  orderNo: "O304609951828488192" #订单号
+
+roadmap:
+  bid: "d0defca3e8fb453fb3849201be7778c5"
+
+
+cocosEnv:
+  Env: "prod"
+
+
+home:
+  unPurchased: "19898989865" #未购用户
+  unPurchased_b: "c6b2e638bf2342bbb97bb1d6ab7a33c3"#未购用户bid
+  ex_user: "14949123403" #已购体验课
+  ex_user_b: "e4eb559e92b242c7a0e5c84abddcc8be" #已购体验课bid
+  en_user: "14040123422" #已购英语正价课
+  en_user_b: "b83df51c94304610a93fe23515be9d0d" #已购英语正价课bid
+  ma_user: "14949123406" #已购思维正价课
+  ma_user_b: "970e710c1997434a96184830213e6209" #已购思维正价课bid
+  mix_user: "19798123402" #已购英语体验课+思维/英语正价课
+  mix_user_b: "2087da062d1449c783eb82dfb22b540d" #已购思维/英语体验课+思维/英语正价课bid，昵称T
+  #diploma_user: "19898989807" #T2级别已全部完课
+  #diploma_user_b: "537d1607d7d242d0ac44502e797030b9" #T2级别已全部完课bid
+  yt_user: "18500001090" #已购年课体验课
+  yt_user_b: "96ac31dfca174102a54c8b19d2066ba0" #已购年课体验课bid
+  y_user: "18500001080" #已购年课正价课bid
+  y_user_b: "a37ea06d7efc41889a8862939d357baf" #已购年课正价课bid
+  x-app-params: "deviceIdEncrypt=Go0H5ixliA+/N3mGgI9qSDbi6Soet5YTMoK6Tyb5GkFdaDTyWLtxs7R+le5x9O+I&deviceType=iPhone9,2"
+
+shoppingtab:
+  ge_9.9_notpaid: "19898989865" #未购9.9
+  ge_9.9_notpaid_b: "c6b2e638bf2342bbb97bb1d6ab7a33c3"
+  #  old_9.9_inside: "12712345602" #已购9.9，宝贝年龄>3岁且在运营期内
+  #  young_9.9_inside: "12712345603" #已购9.9，宝贝年龄<3岁且在运营期内
+  ge_9.9_outside: "19494123422" #已购9.9且在运营期外
+  ge_9.9_outside_b: "d1c7ff29c89b492ea85dccab224ec785"
+  sixweek01_user_rebuy: "19000000271" #首购双月课用户(S1GE_W1-6_SPU)，复购
+  sixweek01_user_rebuy_b: "a304ed66443648a78a7c4b1dd1b59842"
+  sixweek02_user_rebuy: "19494123415" #首购双月课用户(F2GE_W1-6_SPU)，复购
+  sixweek02_user_rebuy_b: "5744a6198a74403e98d7bac54c2d5728"
+  original_user_rebuy: "19898989807" #首购1.5正价课用户，复购
+  original_user_rebuy_b: "537d1607d7d242d0ac44502e797030b9"
+  original01_user_rebuy: "19898989806" #首购2.5正价课用户，复购
+  original01_user_rebuy_b: "9283c97efe604f05be2a73eceae39093"
+  original_user_refund: "19494123418" #首购双月课，后退款
+  original_user_refund_b: "eaf65e9325e0457c82993666fbd872d6"
+  ggr_user: "19494123419" #推荐呱呱阅读卡
+  ggr_user_b: "c350cd99f87e46eab93cfb470fec6d59"
+  expand_user: "19494123419" #推荐趣味拓展
+  expand_user_b: "c350cd99f87e46eab93cfb470fec6d59"
+  disney_user: "19494123419" #推荐迪士尼
+  disney_user_b: "c350cd99f87e46eab93cfb470fec6d59"
+  ma_9.9_user: "19898989830" #推荐思维9.9
+  ma_99_user_b: "3e7d9fdfe67942009ac1050366523075"
+  ma_9.9_rebuy: "19898989831" #推荐思维大包
+  ma_9.9_rebuy_b: "dc4f9d11a97346f98ccb95459abb675b"
+  four_rebuy: "19798123402" #推荐四周课剩余大包
+  four_rebuy_b: "2087da062d1449c783eb82dfb22b540d" #推荐四周课剩余大包
+
+version:
+  ver10.7: "version=100700&platform=5&model=0"
+  ver11.0: "version=110000&platform=5&model=0"
+  ver11.5: "version=110500&platform=5&model=0"
+  ver11.6: "version=110600&platform=5&model=0"
+  ver12.1: "version=111201&platform=5&model=0"
+  ver11.12.3: "version=111201&platform=5&model=0"
+  ver11.17.0: "version=111700&platform=5&model=0"
+  ver11.31.0: "version=113100&platform=5&model=0"
+  ver11.34.0: "version=113400&platform=1&model=0"
+anVersion:
+  ver1: "20230516"
+xApp:
+  xApp01: "deviceIdEncrypt=7idDtpB2PghGEODaq6trRiF5tC91C9jTOvY9PfOoivI=&deviceType=Xiaomi M2012K11AC"
+regression:
+  birth: "1542844800000" #宝贝年龄
+  nick: "自动化宝贝" #宝贝昵称
+  mobile: "11100000135" #可购买四周课账号
+  pwd: "123456"
+  bid: "61844d67a9134072baf739dcdcb1e62c"
+  channel: "wx"
+  itemId: "S1GE_W1_4_SPU_new"#四周课
+  physical: false #是否是实体
+  level: "K1GE" #级别
+  mobile_c: "11100000084" #C类课程购买账号
+  albumId: "AlbumCIX001" #C类专辑id
+  lessonId: "LCIX003" #C类课程id
+  re01: "12345678101"
+  re02: "12345678102"
+  mobile02: "11100000182" #购买3.0大包账号，F1_S1-6_WITHDISCOUNT_SPU
+  itemId02: "F1_S1-6_WITHDISCOUNT"
+  bid02: "dd9c109543654046977c7ce69f81130d"
+  level02: "S1GE" #级别
+  anch: "JLGLWBM"
+  anver: "113400"
